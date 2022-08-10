@@ -5,7 +5,7 @@ Bot for student council of SPb
 
 1. [Python](https://python.org/) version 3.8 or later
 2. pip or pip3
-3. Bot token for VK API
+3. Bot [token](https://dev.vk.com/api/bots/getting-started#%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%BB%D1%8E%D1%87%D0%B0%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%B0) for VK API
 4. Google App Password [Guide](https://support.google.com/accounts/answer/185833?hl=en#:~:text=Create%20%26%20use%20App%20Passwords)
 
 # Instructions
