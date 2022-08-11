@@ -31,7 +31,7 @@ docker run --env TOKEN='TOKEN_TO_YOUR_BOT' `
 
     ```shell
     docker run --env TOKEN='TOKEN_TO_YOUR_BOT' `
-    --env GOOGLE_APP_PASSWORD='YOUR_GOOGLE_APP_PASSWORD'
+    --env GOOGLE_APP_PASSWORD='YOUR_GOOGLE_APP_PASSWORD' `
     --name name_of_your_container -d name_of_your_image
     ```
 
