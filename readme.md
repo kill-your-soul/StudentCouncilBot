@@ -27,7 +27,7 @@ docker run --env TOKEN='TOKEN_TO_YOUR_BOT' `
     docker build -t name_of_your_image .
     ```
 
-3. Run container 
+3. Run container based on your image
 
     ```shell
     docker run --env TOKEN='TOKEN_TO_YOUR_BOT' `
