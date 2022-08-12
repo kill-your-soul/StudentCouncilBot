@@ -5,13 +5,13 @@ from . import universities, mail
 async def send_email(university: str, text: str, theme: str):
     logging.info(university)
     if not university:
-        reciever_email = "nasca@mail.ru"
-        # logging.info("None")
+        reciever_email = "studsovetspb@gmail.com"
+
     else:
         reciever_email = next(
             item for item in universities if item["university"] == university
         )["email"]
-        # logging.info(reciever_email)
+
     
     
     await mail.send_message(
