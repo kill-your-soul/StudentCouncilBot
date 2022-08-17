@@ -155,8 +155,8 @@ async def wrong_university(message: Message):
 
 @bp.on.message(state=StudentState.FOURTH_QUESTION)
 async def problem_handler(message: Message):
-
-    if message.state_peer.payload["payload"] == "Проблема не связанная с вузом":
+    print(message.state_peer.payload["payload"])
+    if message.state_peer.payload["payload"] == "Проблема не связана с ОО":
         await message.answer(
             "Ваше сообщение вскоре будет отправлено на почту Председателя Студенческого совета Санкт-Петербурга"
         )
