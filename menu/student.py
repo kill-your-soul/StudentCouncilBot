@@ -177,8 +177,8 @@ async def problem_handler(message: Message):
             # message.state_peer.payload["payload"],
             "Обращение бота СС СПб",
         )
-    await bp.state_dispenser.delete(message.peer_id)
     await yes_or_not(message)
+    await bp.state_dispenser.delete(message.peer_id)
     await bp.state_dispenser.set(message.peer_id, state=StudentState.FIFTH_QUESTION)
 
 
